@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/uiBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_blue_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/uiGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="46dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvInvite"
+        android:layout_width="281dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Invite friends to Vasukam &amp; Earn"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/uiGroup">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvInviteSmall"
+        android:layout_width="356dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/invite_friends_to_vasukam_and_get_5000_vats_when_your_friends_joins_through_your_code_they_get_2000_vats"
+        android:textColor="@color/dark_blue"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@id/tvInvite"
+        app:layout_constraintTop_toBottomOf="@id/tvInvite">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvHowItWorks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval_rectangle"
+        app:layout_constraintStart_toStartOf="@id/tvInviteSmall"
+        app:layout_constraintTop_toBottomOf="@id/tvInviteSmall"
+        android:layout_marginTop="11dp"
+        android:textSize="11sp"
+        android:textColor="@color/light_blue"
+        android:text="See how it works?"
+        android:textAlignment="center"
+        android:padding="10dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ivRefferalEarned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle"
+        app:layout_constraintTop_toBottomOf="@id/tvHowItWorks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_design"
+        app:layout_constraintTop_toTopOf="@id/ivRefferalEarned"
+        app:layout_constraintStart_toStartOf="@id/ivRefferalEarned"
+        app:layout_constraintEnd_toEndOf="@id/ivRefferalEarned"
+        android:layout_marginTop="53dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvTRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Total referral earnings"
+        android:textColor="@color/light_blue"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/ivRefferalEarned"
+        app:layout_constraintTop_toTopOf="@id/ivRefferalEarned">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/referAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppins_medium"
+
+        android:textColor="@color/light_blue"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivLine"
+        app:layout_constraintTop_toTopOf="@id/ivRefferalEarned">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Track my Referrals"
+        android:textColor="@color/light_blue"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/ivRefferalEarned"
+        app:layout_constraintTop_toBottomOf="@id/ivLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ivRefCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/copy_rectangle"
+        android:textSize="25sp"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivRefferalEarned">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE Code"
+        android:backgroundTint="@color/black"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivRefCode" />
+
+    <Button
+        android:id="@+id/addPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST SECTION"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivRefCode" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513644693167",
+    "project_id": "ownsfare-cc4b0",
+    "storage_bucket": "ownsfare-cc4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513644693167:android:b7bb92ef4ba376ded8365a",
+        "android_client_info": {
+          "package_name": "com.example.ownsfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513644693167-99sihietlg6si7lesjpus0bnumsjdmla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9TMG-tuReDxndAi2t8zSuc7z8mJCBAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513644693167-99sihietlg6si7lesjpus0bnumsjdmla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

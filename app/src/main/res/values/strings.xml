@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ownsfare</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="google_login">google login</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="invite_friends_to_vasukam_and_get_5000_vats_when_your_friends_joins_through_your_code_they_get_2000_vats">Invite friends to Vasukam and get 5000 VATS when your friends joins through your code. They get 2000 VATS</string>
+    <string name="referal_code">REFERAL CODE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_you_want_to_do">Edit Post</string>
+    <string name="post">Post</string>
+    <string name="like">Like</string>
+    <string name="user_image">user_image</string>
+    <string name="share">SHARE</string>
+    <string name="todo">ToDo</string>
+</resources>
